@@ -25,7 +25,8 @@
         app:layout_constraintBottom_toTopOf="@+id/btnEquals"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        android:contentDescription="@string/dice_image_desc" />
 
     <TextView
         android:id="@+id/lastThrowText"
@@ -41,7 +42,7 @@
         android:id="@+id/btnEquals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/equals"
+        android:text="@string/equal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnHigher"
         app:layout_constraintStart_toEndOf="@+id/btnLower"

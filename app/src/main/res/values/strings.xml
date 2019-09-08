@@ -4,8 +4,9 @@
     <string name="last_throw">Last Throw: %d</string>
     <string name="higher">Higher</string>
     <string name="lower">Lower</string>
-    <string name="equals">Equals</string>
+    <string name="equal">Equal</string>
     <string name="dice">Dice</string>
     <string name="correct">Correct</string>
     <string name="incorrect">Incorrect</string>
+    <string name="dice_image_desc">Dice image</string>
 </resources>
